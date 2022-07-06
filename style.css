@@ -4,16 +4,20 @@ h1 {
     font-weight: bold;
 }
 
+p {
+    color: #f9FaF8;
+}
+
 ul {
     display: flex;
-    gap: 24px;
+    gap: 6px;
     align-items: center;
     margin-left: auto;
 }
 
 li {
     list-style-type: none;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 li a {
@@ -21,8 +25,41 @@ li a {
     text-decoration: none;
 }
 
+button {
+    background-color: #3882F6;
+    color: #f9FaF8;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    padding: 16px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
 .header, .information {
     background-color: #1f2937;
     display: flex;
-    padding: 8px 64px;
+    padding: 4px 110px;
+    flex-grow: 1;
+}
+
+.header {
+    padding: 4px 160px;
+}
+
+.logo_text {
+    font-size: 24px;
+}
+
+.website_desc {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 50%;
 }
