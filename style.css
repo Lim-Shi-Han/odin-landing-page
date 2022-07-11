@@ -105,8 +105,28 @@ figcaption {
     margin: 10px;
 }
 
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote_text {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
 #panda {
     width: 300px;
     height: 200px;
     padding: 80px;
 }
+
+#quote_person {
+    text-align: end;
+}
+
