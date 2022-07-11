@@ -120,6 +120,45 @@ figcaption {
     flex-direction: column;
 }
 
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.sign_up {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: #3882F6;
+    margin: 60px;
+    border-radius: 8px;
+    padding: 32px;
+    align-items: center;
+    gap: 30%;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sign_up_words {
+    color: white;
+}
+
+.sign_up_words h4 {
+    font-size: 12px;
+}
+
+.sign_up button {
+    border-color: white;
+}
+
+
 #panda {
     width: 300px;
     height: 200px;
